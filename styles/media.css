@@ -11,6 +11,7 @@
     justify-self: start;
     align-self: start;
     padding: 0;
+    letter-spacing: -1px;
   }
 
   .header__subtitle {
@@ -117,6 +118,10 @@
     grid-column: span 2;
   }
 
+  .footer {
+    min-block-size: 1024px;
+  }
+
 }
 
 @media (min-width: 1024px) {
@@ -144,7 +149,7 @@
   .header__subtitle {
     min-inline-size: 491px;
     align-self: center;
-    margin: 0;
+    margin-bottom: 20px;
   }
 
   /*the first a section*/
@@ -197,5 +202,9 @@
 
   .footer__title {
     font-size: var(--font-size-title-desk);
+  }
+
+  .footer {
+    min-block-size: 768px;
   }
 }

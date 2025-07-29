@@ -1,42 +1,13 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 :root.theme-light {
-  --main-color: #353430;
-  --bg-color: #FFF1F7;
-  --accent-color: #FFC2E6;
-  --shadow-color: #FF8DCB;
-  --shadow-color-transparent: #32312D66;
-  --page-headers-color: #353430;
-  --title-decor-color: #353430;
-  --bg-image: url(../images/cover-image-light.png);
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    --main-color: #353430;
-    --bg-color: #FFF1F7;
-    --accent-color: #FFC2E6;
-    --shadow-color: #FF8DCB;
-    --shadow-color-transparent: #32312D66;
-    --page-headers-color: #353430;
-    --title-decor-color: #353430;
-    --bg-image: url(../images/cover-image-light.png);
-  }
-
-  .header__rec {
-    display: none;
-  }
-}
-
-.theme-light .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
-  background-image: var(--bg-image);
-}
-
-.theme-light .header__rec {
-  display: none;
+  --bg-img: (./images/cover-image-light.png);
+  --content-subtitle-color: #353430; /*text*/
+  --content-title-color: #353430; /*contents color from accent*/
+  --accent-color: #ff8dcb; /*shadow+decor for neon*/
+  --color-element: #353430;
+  --title-color: #ffc2e6;
+  --bg-color: #fff1f7; /*subtitle color text*/
+  --decorated-element-display: none;
+  --color-actions: rgba(50, 49, 45, 0.4); /*hover*/
+  --color-actions-link:#353430;
+  --color-decor-title: #353430;
 }

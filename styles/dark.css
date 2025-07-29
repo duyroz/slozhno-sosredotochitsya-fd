@@ -1,25 +1,29 @@
-/*
-  Специально для тёмной темы при наличии класса,
-  здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 :root.theme-dark {
-  --main-color: #F1B2CE;
+  --bg-img: url(../images/cover-image-dark.png);
+  --content-subtitle-color: #f1b2ce; /*text*/
+  --content-title-color: #ff0070; /*contents color from accent*/
+  --title-color: #db00ff;
+  --accent-color: #ff0070; /*shadow+decor*/
+  --color-element: #ff0070;
   --bg-color: #000028;
-  --accent-color: #DB00FF;
-  --shadow-color: #FF0070;
-  --shadow-color-transparent: #FF007066;
-  --page-headers-color: #FF0070;
-  --title-decor-color: #000028;
-  --bg-image: url(../images/cover-image-dark.png);
+  --decorated-element-display: flex;
+  --color-actions: rgba(255, 0, 112, 0.4); /*hover*/
+  --color-actions-link: #f1b2ce;
+  --color-decor-title: #000028;
 }
 
-.theme-dark .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
-  background-image: var(--bg-image);
-}
-
-.theme-dark .header__rec {
-  display: flex;
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-img: url(../images/cover-image-dark.png);
+    --content-subtitle-color: #f1b2ce; /*text*/
+    --content-title-color: #ff0070; /*contents color from accent*/
+    --title-color: #db00ff;
+    --accent-color: #ff0070; /*shadow+decor*/
+    --color-element: #ff0070;
+    --bg-color: #000028; /*subtitle color text*/
+    --decorated-element-display: flex;
+    --color-actions: rgba(255, 0, 112, 0.4); /*hover*/
+    --color-actions-link: #f1b2ce;
+    --color-decor-title: #000028;
+  }
 }
