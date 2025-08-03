@@ -1,5 +1,5 @@
 :root.theme-light {
-  --bg-img: (./images/cover-image-light.png);
+  --bg-img: url(../images/cover-image-light.png);
   --content-subtitle-color: #353430; /*text*/
   --content-title-color: #353430; /*contents color from accent*/
   --accent-color: #ff8dcb; /*shadow+decor for neon*/

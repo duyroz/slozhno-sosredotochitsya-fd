@@ -3,8 +3,7 @@
     margin-block-end: 60px;
     min-inline-size: 768px;
     min-block-size: 1024px;
-    padding-inline-start: 0;
-    padding-inline-end: 20px;
+    padding: 10px 20px 10px 0px;
   }
 
   .header__title {
@@ -60,15 +59,17 @@
 
   .title-decor {
     margin: 0;
+    block-size: 23px;
   }
 
   .content__subtitle {
     padding-block-end: 20px;
+    margin-top: 11px;
   }
 
   /*the second a section*/
   .content__description__concentration {
-    margin-block-start: 60px;
+    margin-block-start: 59px;
     padding-inline-start: 20px;
     padding-inline-end: 20px;
   }
@@ -76,7 +77,7 @@
   /*last a section*/
   .content__description__focus {
     padding-inline-end: 20px;
-    margin-block-start: 60px;
+    margin-block-start: 59px;
     display: grid;
     grid-template-columns: 276px 1fr;
   }
@@ -99,7 +100,7 @@
   .visual__content-decor {
     grid-column: span 3;
     grid-row: 1;
-    margin-block-start: 60px;
+    margin-block-start: 57px;
   }
   /*sunset*/
   .gallery:nth-child(2) {
@@ -135,7 +136,7 @@
     justify-content: center;
     align-items: flex-start;
     margin-left: 20px;
-    padding-top: 20px;
+    padding-top: 10px;
   }
   /*растановка кнопок*/
   .header__theme-menu-list {
@@ -149,7 +150,7 @@
   .header__subtitle {
     min-inline-size: 491px;
     align-self: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 
   /*the first a section*/
@@ -193,9 +194,10 @@
     padding-inline-start: 20px;
     margin-block-start: 80px;
   }
-  .content__description__focus .content__list-item {
+  .content__section {
     padding-inline-start: 20px;
   }
+  
   .content__description__focus .content__title {
     padding-inline-start: 0;
   }
