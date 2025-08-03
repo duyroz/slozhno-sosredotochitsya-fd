@@ -54,7 +54,8 @@
   }
   .content__title {
     padding-inline-start: 20px;
-    inline-size: 236px;
+    max-inline-size: 236px;
+    width: 100%;
   }
 
   .title-decor {
@@ -148,7 +149,8 @@
   }
 
   .header__subtitle {
-    min-inline-size: 491px;
+    max-inline-size: 491px;
+    width: 100%;
     align-self: center;
     margin-bottom: 10px;
   }
@@ -165,11 +167,14 @@
   }
 
   .content__title {
-    inline-size: auto;
+    max-inline-size: 315px;
+    width: 100%;
   }
+
   .content__description__concentration .content__title {
     padding-block-start: 10px;
-    inline-size: 315px;
+    max-inline-size: 315px;
+    width: 100%;
   }
 
   /*the second a section*/
@@ -192,7 +197,7 @@
   .content__description__focus {
     grid-template-columns: 315px 1fr;
     padding-inline-start: 20px;
-    margin-block-start: 80px;
+    margin-block-start: 78px;
   }
   .content__section {
     padding-inline-start: 20px;
