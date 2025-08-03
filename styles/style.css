@@ -162,7 +162,6 @@ main {
   color: var(--content-title-color);
   line-height: 23px;
   text-align: left;
-  overflow-wrap: break-word;
 }
 
 /*отступы у абзацев*/
